@@ -23,6 +23,9 @@ angular.module('devmtnTravel').service('mainSrv', function(){
         id: 11223489,
         price: 1112
 
+    }];
 
-    }]
-})
+    this.getImage = function() {
+      return this.travelInfo;
+    };
+});
